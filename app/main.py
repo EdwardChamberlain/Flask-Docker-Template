@@ -1,6 +1,4 @@
-from flask import Flask
-api = Flask(__name__)
+from flaskr import app
 
-@api.route("/")
-def hello():
-    return "Hello World from Flask"
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', debug=True, port=80)
