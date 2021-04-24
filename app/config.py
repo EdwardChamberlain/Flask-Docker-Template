@@ -2,7 +2,7 @@ import os
 import logging
 
 
-class Config:
+class Flask_Config:
     pass
 
 
